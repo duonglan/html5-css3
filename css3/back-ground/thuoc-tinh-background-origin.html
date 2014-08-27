@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+#div1,#div2,#div3
+{
+border:green 40px solid;
+padding:50px;
+background-image:url(http://d3.violet.vn/uploads/previews/blog/747728/011.gif);
+background-repeat:no-repeat;
+background-position:left;
+color:red;
+}
+#div1
+{
+background-origin:border-box;
+}
+#div2
+{
+background-origin:padding-box;
+}
+#div3
+{
+background-origin:content-box;
+}
+</style>
+</head>
+<body>
+<p>background-origin:border-box</p>
+<div id="div1">Ảnh nền hiển thị bắt đầu từ mép ngoài của vùng đường bao!</div>
+<p>background-origin:padding-box</p>
+<div id="div2">Ảnh nền hiển thị bắt đầu từ mép ngoài của vùng đệm nội dung (cũng là mép trong của vùng đường bao)!</div>
+<p>background-origin:content-box</p>
+<div id="div3">Ảnh nền hiển thị bắt đầu từ mép trong của vùng đệm nội dung!</div>
+</body>
+</html>

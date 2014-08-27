@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+#xongang,#xodoc,#xocahai
+{
+width:100px;
+height:75px;
+background-color:green;
+text-align:center;
+border:red thin solid;
+color:white;
+}
+#xongang:hover
+{
+transform:skew(30deg,0deg); /*xô ngang 30 độ */
+-ms-transform:skew(30deg,0deg); /* IE 9 */
+-webkit-transform:skew(30deg,0deg); /* Safari và Chrome */
+}
+#xodoc:hover
+{
+transform:skew(0deg,30deg); /*xô dọc 30 độ */
+-ms-transform:skew(0deg,30deg); /* IE 9 */
+-webkit-transform:skew(0deg,30deg); /* Safari và Chrome */
+}
+#xocahai:hover
+{
+transform:skew(30deg,30deg); /*xô ngang 30 độ và xô dọc 30 độ*/
+-ms-transform:skew(30deg,30deg); /* IE 9 */
+-webkit-transform:skew(30deg,30deg); /* Safari và Chrome */
+}
+</style>
+</head>
+<body>
+<div id="xongang">Chạm đây => Xô ngang</div>
+<div id="xodoc">Chạm đây => Xô dọc</div>
+<div id="xocahai">Chạm đây => Xô cả ngang và dọc</div>
+</body>
+</html>

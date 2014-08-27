@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style> 
+#tran1,#id1
+{
+width:100px;
+height:100px;
+background:green;
+color:white;
+text-align:center;
+}
+#id1:hover #tran1
+{
+transform:translate(100px,100px); /* Chuyển div tới tọa độ (100,100) */
+-ms-transform:translate(200px,200px); /* IE9+ */
+-webkit-transform:translate(200px,200px); /* Safari và Chrome */
+-o-transform:translate(200px,200px); /* Opera */
+-moz-transform:translate(200px,200px); /* FireFox */
+}
+</style>
+</head>
+<body>
+<div id="id1">
+<div id="tran1">Chạm đây => Dịch chuyển</div>
+</div>
+</body>
+</html>

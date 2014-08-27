@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+#d1
+{
+padding:10px 40px;
+background:green;
+width:300px;
+color:white;
+height:80px;
+margin:10px;
+}
+#d1:first-child
+{
+border-radius:10px;
+}
+#d1:nth-child(2)
+{
+border-radius:10px 20px;
+}
+#d1:nth-child(3)
+{
+border-radius:10px 20px 30px;
+}
+#d1:last-child
+{
+border-radius:10px 20px 30px 40px;
+}
+</style>
+</head>
+<body>
+<div id="d1">Cả 4 góc đều có bán kính như nhau = 10px.</div>
+<div id="d1">Các góc trên-trái và dưới-phải có bán kính 10px.<br>Các góc trên-phải và dưới-trái có bán kính 20px.</div>
+<div id="d1">Góc trên-trái có bán kính 10px.<br>Góc trên-phải và dưới-trái có bán kính 20px.<br>Góc dưới-phải có bán kính 30px.</div>
+<div id="d1">Góc trên-trái có bán kính 10px.<br>Góc trên-phải có bán kính 20px.<br>Góc dưới-phải có bán kính 30px.<br>Góc dưới-trái có bán kính 40px.</div>
+</body>
+</html>

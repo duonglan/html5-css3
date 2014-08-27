@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+#grad1,#grad2,#grad3,#grad4
+{
+height:150px;
+width:150px;
+}
+#grad1
+{
+background: -webkit-radial-gradient(60% 55%, closest-side,blue,green,yellow,black);
+background: -o-radial-gradient(60% 55%, closest-side,blue,green,yellow,black);
+background: -moz-radial-gradient(60% 55%, closest-side,blue,green,yellow,black);
+background: radial-gradient(60% 55%, closest-side,blue,green,yellow,black);
+}
+#grad2
+{
+background: -webkit-radial-gradient(60% 55%, farthest-side,blue,green,yellow,black);
+background: -o-radial-gradient(60% 55%, farthest-side,blue,green,yellow,black);
+background: -moz-radial-gradient(60% 55%, farthest-side,blue,green,yellow,black);
+background: radial-gradient(60% 55%, farthest-side,blue,green,yellow,black);
+}
+#grad3
+{
+background: -webkit-radial-gradient(60% 55%, closest-corner,blue,green,yellow,black);
+background: -o-radial-gradient(60% 55%, closest-corner,blue,green,yellow,black);
+background: -moz-radial-gradient(60% 55%, closest-corner,blue,green,yellow,black);
+background: radial-gradient(60% 55%, closest-corner,blue,green,yellow,black);
+}
+#grad4
+{
+background: -webkit-radial-gradient(60% 55%, farthest-corner,blue,green,yellow,black);
+background: -o-radial-gradient(60% 55%, farthest-corner,blue,green,yellow,black);
+background: -moz-radial-gradient(60% 55%, farthest-corner,blue,green,yellow,black);
+background: radial-gradient(60% 55%, farthest-corner,blue,green,yellow,black);
+}
+</style>
+</head>
+<body>
+<p><strong>closest-side:</strong></p>
+<div id="grad1"></div>
+<p><strong>farthest-side:</strong></p>
+<div id="grad2"></div>
+<p><strong>closest-corner:</strong></p>
+<div id="grad3"></div>
+<p><strong>farthest-corner (kích thước mặc định):</strong></p>
+<div id="grad4"></div>
+</body>
+</html>
